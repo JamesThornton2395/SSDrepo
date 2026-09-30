@@ -1,4 +1,8 @@
-public class shape {
+public abstract class shape {
+    public abstract int shape();
+
+    public abstract int getArea();
+
     public abstract class Shape {
         private int sides;
 
