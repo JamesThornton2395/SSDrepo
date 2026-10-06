@@ -19,17 +19,24 @@ public class rectangle extends shape {
     }
 
     public rectangle(int width, int height) {
+        super(4);
+        this.width = width;
+        this.height =height;
+    }
+
+    protected rectangle(int width, int height, int sides) {
+        super(sides);
         this.width = width;
         this.height =height;
     }
 
     @Override
     public int shape() {
-        return 4;
+        return getSides();
     }
 
     @Override
-    public int getArea() {
+    public double getArea() {
         return width * height;
     }
 }

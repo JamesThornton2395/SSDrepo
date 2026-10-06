@@ -17,7 +17,35 @@ public class Driver {
         System.out.println(rectangle6.getArea());
 
         circle circle0 = new circle(4);
+        circle circle1 = new circle(6);
+        circle circle2 = new circle(8);
+        circle circle3 = new circle(9);
+        circle circle4 = new circle(10);
+        circle circle5 = new circle(11);
+        circle circle6 = new circle(12);
 
         System.out.println(circle0.getArea());
+        System.out.println(circle1.getArea());
+        System.out.println(circle2.getArea());
+        System.out.println(circle3.getArea());
+        System.out.println(circle4.getArea());
+        System.out.println(circle5.getArea());
+        System.out.println(circle6.getArea());
+
+        ellipse ellipse0 = new ellipse(4, 5);
+        ellipse ellipse1 = new ellipse(6, 7);
+        ellipse ellipse2 = new ellipse(8, 9);
+        ellipse ellipse3 = new ellipse(10, 11);
+        ellipse ellipse4 = new ellipse(12, 13);
+        ellipse ellipse5 = new ellipse(14, 15);
+        ellipse ellipse6 = new ellipse(16, 17);
+
+        System.out.println(ellipse0.getArea());
+        System.out.println(ellipse1.getArea());
+        System.out.println(ellipse2.getArea());
+        System.out.println(ellipse3.getArea());
+        System.out.println(ellipse4.getArea());
+        System.out.println(ellipse5.getArea());
+        System.out.println(ellipse6.getArea());
     }
 }

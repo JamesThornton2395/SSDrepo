@@ -2,6 +2,7 @@ public class circle extends shape {
     private int radius;
 
     public circle(int radius) {
+        super(0);
         this.radius = radius;
     }
 
@@ -15,11 +16,11 @@ public class circle extends shape {
 
     @Override
     public int shape() {
-        return 0;
+        return getSides();
     }
 
     @Override
-    public int getArea() {
+    public double getArea() {
         int area = (int) (Math.PI * radius * radius);
         return area;
     }
